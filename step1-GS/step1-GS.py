@@ -1,0 +1,2 @@
+samples['MonoHWW_Zp2HDM_MZP2500_MA0400_13TeV_step1GS_76X'] = ['MonoHWW_Zp2HDM_MZP2500_MA0400_13TeV_76X', 'MonoHWW_Zp2HDM_MZP2500_MA0400_13TeV_76X_step1GS', '/store/group/phys_exotica/monoHiggs/Zp2HDM/MZP2500_MA0400.lhe']
+

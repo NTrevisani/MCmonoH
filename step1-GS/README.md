@@ -21,11 +21,11 @@ To send jobs to crab, one by one:
 
 To send all the jobs to crab automatically:
 
-    python script.py submit
+    python crabbing.py submit
 
 To resubmit all the jobs to crab automatically:
 
-    python script.py resubmit
+    python crabbing.py resubmit
 
 
 Backup

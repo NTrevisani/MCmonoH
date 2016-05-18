@@ -29,8 +29,7 @@ process.maxEvents = cms.untracked.PSet(
 
 # Input source
 process.source = cms.Source("LHESource",
-    #fileNames = cms.untracked.vstring('/store/group/phys_exotica/monoHiggs/Zp2HDM/MZP2500_MA0300.lhe'),
-    fileNames = cms.untracked.vstring( options.inputFiles ),
+    fileNames = cms.untracked.vstring('/store/group/phys_exotica/monoHiggs/Zp2HDM/MZP1400_MA0300.lhe'),
     inputCommands = cms.untracked.vstring('keep *', 
         'drop LHEXMLStringProduct_*_*_*', 
         'drop *', 

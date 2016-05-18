@@ -15,6 +15,18 @@ To test that everything works fine:
 
     cmsRun EXO-step1GS_Zp2HDM.py
 
-To send jobs to crab:
+To send jobs to crab, one by one:
 
     crab submit crab_cfg_step1GS_Zp2HDM.py 
+
+To send all the jobs to crab automatically:
+
+    python script.py
+
+
+Backup
+====
+
+Remember to fill the list of the samples you want to GEN-SIM in:
+
+	 step1-GS.py

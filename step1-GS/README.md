@@ -21,7 +21,11 @@ To send jobs to crab, one by one:
 
 To send all the jobs to crab automatically:
 
-    python script.py
+    python script.py submit
+
+To resubmit all the jobs to crab automatically:
+
+    python script.py resubmit
 
 
 Backup
@@ -30,3 +34,4 @@ Backup
 Remember to fill the list of the samples you want to GEN-SIM in:
 
 	 step1-GS.py
+

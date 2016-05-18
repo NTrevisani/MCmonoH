@@ -6,6 +6,15 @@ SamplesFile = 'step1-GS.py'
 
 print " SamplesFile =", SamplesFile   
 
+print sys.argv
+if len(sys.argv) <= 1 :
+    print "please tell me what you want to do: \n"
+    print "submit: python script.py submit"
+    print "resubmit: python script.py resubmit"
+    print "kill: python script.py kill"
+    print "report: python script.py report \n"
+    exit()
+
 
 if os.path.exists(SamplesFile) :
     handle = open(SamplesFile,'r')
@@ -367,6 +376,26 @@ if os.path.exists(SamplesFile) :
         #import time
         #time.sleep(1)
 
+        #oFileName2 = "EXO-step1GS_Zp2HDM_" + value[0] + ".py"
+        oFileName3 = "submit.sh"
+        oFile3 = open (oFileName3, 'w')
+
+        if sys.argv[1] == 'submit' :
+            oFile3.write("crab submit crab_cfg_step1GS_Zp2HDM.py")
+        elif sys.argv[1] == 'resubmit' :
+            oFile3.write("crab resubmit crab_cfg_step1GS_Zp2HDM.py")
+        elif sys.argv[1] == 'kill' :
+            oFile3.write("crab kill crab_cfg_step1GS_Zp2HDM.py")
+        elif sys.argv[1] == 'report' :
+            oFile3.write("crab report crab_cfg_step1GS_Zp2HDM.py")
+        else :
+            print "please insert a valid option: \n"
+            print "submit, resumbit, kill or report"
+            exit()
+            
+        oFile3.close()
+
+        os.system('chmod +x submit.sh')
         os.system('./submit.sh')
 
         #os.system('crab submit ' + oFileName2)

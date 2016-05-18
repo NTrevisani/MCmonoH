@@ -1,2 +1,4 @@
-samples['MonoHWW_Zp2HDM_MZP2500_MA0400_13TeV_step1GS_76X'] = ['MonoHWW_Zp2HDM_MZP2500_MA0400_13TeV_76X', 'MonoHWW_Zp2HDM_MZP2500_MA0400_13TeV_76X_step1GS', '/store/group/phys_exotica/monoHiggs/Zp2HDM/MZP2500_MA0400.lhe']
+samples['MonoHWW_Zp2HDM_MZP1000_MA0300_13TeV_step1GS_76X'] = ['MonoHWW_Zp2HDM_MZP1000_MA0300_13TeV_76X', 'MonoHWW_Zp2HDM_MZP1000_MA0300_13TeV_76X_step1GS', '/store/group/phys_exotica/monoHiggs/Zp2HDM/MZP1000_MA0300.lhe']
+samples['MonoHWW_Zp2HDM_MZP1400_MA0300_13TeV_step1GS_76X'] = ['MonoHWW_Zp2HDM_MZP1400_MA0300_13TeV_76X', 'MonoHWW_Zp2HDM_MZP1400_MA0300_13TeV_76X_step1GS', '/store/group/phys_exotica/monoHiggs/Zp2HDM/MZP1400_MA0300.lhe']
+samples['MonoHWW_Zp2HDM_MZP1700_MA0300_13TeV_step1GS_76X'] = ['MonoHWW_Zp2HDM_MZP1700_MA0300_13TeV_76X', 'MonoHWW_Zp2HDM_MZP1700_MA0300_13TeV_76X_step1GS', '/store/group/phys_exotica/monoHiggs/Zp2HDM/MZP1700_MA0300.lhe']
 
